@@ -1,0 +1,155 @@
+[server]
+	disallowedItems = ["minecraft:shulker_box", "supplementaries:sack"]
+	containerItemsDisallowed = true
+	noInteractionBlocks = []
+	noConnectionBlocks = []
+	itemFluidHandlerEnabled = true
+	allowOpeningOtherPlayerBackpacks = true
+	itemDisplayDisabled = false
+	tickDedupeLogicDisabled = false
+	canBePlacedInContainerItems = false
+	maxUpgradesPerStorage = ["stack_upgrades|3", "jukebox_upgrade|1", "furnace_upgrades|1"]
+	[server.leatherBackpack]
+		inventorySlotCount = 27
+		upgradeSlotCount = 1
+	[server.ironBackpack]
+		inventorySlotCount = 54
+		upgradeSlotCount = 2
+	[server.goldBackpack]
+		inventorySlotCount = 81
+		upgradeSlotCount = 3
+	[server.diamondBackpack]
+		inventorySlotCount = 108
+		upgradeSlotCount = 5
+	[server.netheriteBackpack]
+		inventorySlotCount = 120
+		upgradeSlotCount = 7
+	[server.compactingUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+	[server.advancedCompactingUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+	[server.depositUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+	[server.advancedDepositUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+	[server.feedingUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+	[server.advancedFeedingUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+	[server.filterUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+	[server.advancedFilterUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+	[server.magnetUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+		magnetRange = 3
+	[server.advancedMagnetUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+		magnetRange = 5
+	[server.pickupUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+	[server.advancedPickupUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+	[server.refillUpgrade]
+		filterSlots = 6
+		slotsInRow = 3
+	[server.advancedRefillUpgrade]
+		filterSlots = 12
+		slotsInRow = 4
+	[server.restockUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+	[server.advancedRestockUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+	[server.voidUpgrade]
+		filterSlots = 9
+		slotsInRow = 3
+		voidAnythingEnabled = true
+	[server.advancedVoidUpgrade]
+		filterSlots = 16
+		slotsInRow = 4
+		voidAnythingEnabled = true
+	[server.stackUpgrade]
+		nonStackableItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "supplementaries:sack"]
+	[server.smeltingUpgrade]
+		smeltingSpeedMultiplier = 1.0
+		fuelEfficiencyMultiplier = 1.0
+	[server.smokingUpgrade]
+		smeltingSpeedMultiplier = 1.0
+		fuelEfficiencyMultiplier = 1.0
+	[server.blastingUpgrade]
+		smeltingSpeedMultiplier = 1.0
+		fuelEfficiencyMultiplier = 1.0
+	[server.autoSmeltingUpgrade]
+		smeltingSpeedMultiplier = 1.0
+		fuelEfficiencyMultiplier = 1.0
+		inputFilterSlots = 8
+		inputFilterSlotsInRow = 4
+		fuelFilterSlots = 4
+		fuelFilterSlotsInRow = 4
+	[server.autoSmokingUpgrade]
+		smeltingSpeedMultiplier = 1.0
+		fuelEfficiencyMultiplier = 1.0
+		inputFilterSlots = 8
+		inputFilterSlotsInRow = 4
+		fuelFilterSlots = 4
+		fuelFilterSlotsInRow = 4
+	[server.autoBlastingUpgrade]
+		smeltingSpeedMultiplier = 1.0
+		fuelEfficiencyMultiplier = 1.0
+		inputFilterSlots = 8
+		inputFilterSlotsInRow = 4
+		fuelFilterSlots = 4
+		fuelFilterSlotsInRow = 4
+	[server.inceptionUpgrade]
+		upgradesUseInventoriesOfBackpacksInBackpack = true
+		upgradesInContainedBackpacksAreFunctional = true
+	[server.toolSwapperUpgrade]
+		filterSlots = 8
+		slotsInRow = 4
+	[server.tankUpgrade]
+		capacityPerSlotRow = 4000
+		stackMultiplierRatio = 1.0
+		autoFillDrainContainerCooldown = 20
+		maxInputOutput = 20
+		energyPerSlotRow = 10000
+	[server.pumpUpgrade]
+		filterSlots = 4
+		maxInputOutput = 20
+		stackMultiplierRatio = 1.0
+	[server.xpPumpUpgrade]
+		mendingOn = true
+		maxXpPointsPerMending = 5
+	[server.entityBackpackAdditions]
+		chance = 0.01
+		addLoot = true
+		buffWithPotionEffects = true
+		buffHealth = true
+		equipWithArmor = true
+		entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
+		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
+		playJukebox = false
+		dropToFakePlayers = false
+		backpackDropChance = 0.085
+		lootingChanceIncreasePerLevel = 0.01
+	[server.nerfs]
+		tooManyBackpacksSlowness = false
+		maxNumberOfBackpacks = 3
+		slownessLevelsPerAdditionalBackpack = 1.0
+		onlyWornBackpackTriggersUpgrades = false
+	[server.copperBackpack]
+		inventorySlotCount = 45
+		upgradeSlotCount = 1

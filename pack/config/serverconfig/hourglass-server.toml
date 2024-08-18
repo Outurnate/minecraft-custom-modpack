@@ -1,0 +1,33 @@
+[time]
+	daySpeed = 0.125
+	nightSpeed = 0.125
+	[time.effects]
+		weatherEffect = "NEVER"
+		randomTickEffect = "NEVER"
+		baseRandomTickSpeed = 3
+		potionEffect = "NEVER"
+		hungerEffect = "NEVER"
+		blockEntityEffect = "NEVER"
+[sleep]
+	enableSleepFeature = true
+	sleepSpeedMax = 5.0
+	sleepSpeedMin = 1.0
+	sleepSpeedAll = -1.0
+	sleepSpeedCurve = 0.3
+	clearWeatherOnWake = true
+	allowDaySleep = true
+	displayBedClock = false
+	[sleep.messages]
+		[sleep.messages.morning]
+			message = "§e§oWakey wakey eggs and bakey"
+			type = "GAME_INFO"
+			target = "DIMENSION"
+		[sleep.messages.enterBed]
+			message = "${player} is now sleeping. [${sleepingPlayers}/${totalPlayers}]"
+			type = "GAME_INFO"
+			target = "DIMENSION"
+		[sleep.messages.leaveBed]
+			message = "${player} has left their bed. [${sleepingPlayers}/${totalPlayers}]"
+			type = "GAME_INFO"
+			target = "DIMENSION"
+

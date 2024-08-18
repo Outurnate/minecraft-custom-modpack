@@ -1,0 +1,15 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill": {
+    "tag": "createoreexcavation:drills"
+  },
+  "output": [
+    {
+      "item": "createoreexcavation:raw_redstone"
+    }
+  ],
+  "priority": 0,
+  "stress": 256,
+  "ticks": 3000,
+  "vein_id": "createoreexcavation:ore_vein_type/redstone"
+}

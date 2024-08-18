@@ -1,0 +1,18 @@
+{
+  "feature": {
+    "type": "railbridges:trackbridge",
+    "config": {
+      "chunkSeparation": 16,
+      "damageChance": 0.9,
+      "infiniteChance": 0.5,
+      "yLevel": 63,
+      "allowedBiomes": "#minecraft:is_ocean"
+    }
+  },
+  "placement": [
+    {
+      "count": 1,
+      "type": "minecraft:count"
+    }
+  ]
+}

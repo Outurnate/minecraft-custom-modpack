@@ -1,0 +1,13 @@
+name = "Bloop Shaders"
+filename = "Bloop.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q6RQF9Oa/versions/mqTiFtUi/Bloop-1.4.1.zip"
+hash-format = "sha1"
+hash = "e71a358c6e5d183af57fe606fcd9848795528dbe"
+
+[update]
+[update.modrinth]
+mod-id = "Q6RQF9Oa"
+version = "mqTiFtUi"

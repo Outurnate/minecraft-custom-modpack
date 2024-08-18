@@ -1,0 +1,13 @@
+name = "Dave's Building Extended"
+filename = "[1.20.1]davesbuilds.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc93e113e779310f2ea8e5379c0a157109ee70c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4704560
+project-id = 568645

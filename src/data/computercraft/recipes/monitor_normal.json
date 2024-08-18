@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "APPPA",
+    "PGGGP",
+    "PGGGP",
+    "PGGGP",
+    "APPPA"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "computercraft:monitor_normal",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

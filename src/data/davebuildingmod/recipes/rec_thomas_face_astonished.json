@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "railways:locometal_boiler"
+  },
+  "result": "davebuildingmod:thomas_face_astonished"
+}

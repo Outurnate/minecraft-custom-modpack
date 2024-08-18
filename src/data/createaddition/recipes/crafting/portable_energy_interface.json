@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "create:brass_casing"
+		},
+    	{
+      		"item": "create:chute"
+    	},
+    	{
+      		"item": "create_new_age:copper_wire"
+    	}
+	],
+	"result": {
+		"item": "createaddition:portable_energy_interface"
+	}
+}

@@ -1,0 +1,83 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:flesh"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:bacon",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:beef",
+      "chance": 0.01
+    },
+    {
+      "item": "farmersdelight:chicken_cuts",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:rabbit",
+      "chance": 0.01
+    },
+    {
+      "item": "farmersdelight:mutton_chops",
+      "chance": 0.01
+    },
+    {
+      "item": "alexsmobs:moose_ribs",
+      "chance": 0.01
+    },
+    {
+      "item": "alexsdelight:raw_catfish_slice",
+      "chance": 0.01
+    },
+    {
+      "item": "farmersdelight:salmon_slice",
+      "chance": 0.01
+    },
+    {
+      "item": "farmersdelight:cod_slice",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "chance": 0.1
+    },
+    {
+      "item": "alexsdelight:raw_bison",
+      "chance": 0.01
+    },
+    {
+      "item": "alexsmobs:shark_tooth",
+      "chance": 0.005
+    },
+    {
+      "item": "alexsdelight:kangaroo_shank",
+      "chance": 0.01
+    },
+    {
+      "item": "alexsmobs:kangaroo_meat",
+      "chance": 0.01
+    },
+    {
+      "item": "alexsdelight:loose_moose_rib",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:chicken",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:porkchop",
+      "chance": 0.01
+    },
+    {
+      "item": "minecraft:mutton",
+      "chance": 0.01
+    }
+  ],
+  "processingTime": 100
+}

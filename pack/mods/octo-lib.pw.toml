@@ -1,0 +1,13 @@
+name = "OctoLib"
+filename = "octolib-1.20.1-0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc372b6bbb0fe541c64773c02c42a2a8c95fc84c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5115332
+project-id = 916747

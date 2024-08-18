@@ -1,0 +1,13 @@
+name = "Cull Leaves"
+filename = "cullleaves-forge-3.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bd9ec4468f8a114d3443a034c975e188dbe9f683"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4720318
+project-id = 423254

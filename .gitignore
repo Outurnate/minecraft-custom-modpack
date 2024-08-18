@@ -1,0 +1,7 @@
+.build_assets
+.build_data
+pack/kubejs/client_scripts/*
+pack/kubejs/server_scripts/*
+pack/kubejs/startup_scripts/*
+pack/kubejs/data/*
+pack/kubejs/assets/*

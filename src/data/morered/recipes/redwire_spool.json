@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " w ",
+    "wsw",
+    " w "
+  ],
+  "key": {
+    "w": {
+      "item": "morered:red_alloy_wire"
+    },
+    "s": {
+      "item": "createaddition:spool"
+    }
+  },
+  "result": {
+    "item": "morered:redwire_spool"
+  }
+}

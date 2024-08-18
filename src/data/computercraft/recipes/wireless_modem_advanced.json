@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {"E": {"item": "create:electron_tube"}, "P": {"item": "minecraft:ender_eye"}, "C": {"item": "create:brass_casing"}},
+  "pattern": [" E ", " C ", " P "],
+  "result": {"item": "computercraft:wireless_modem_advanced"}
+}

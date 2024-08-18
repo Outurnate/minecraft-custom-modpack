@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {"E": {"item": "create:electron_tube"}, "P": {"tag": "forge:ender_pearls"}, "C": {"item": "create:andesite_casing"}},
+  "pattern": [" E ", " C ", " P "],
+  "result": {"item": "computercraft:wireless_modem_normal"}
+}

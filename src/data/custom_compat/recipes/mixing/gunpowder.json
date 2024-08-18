@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:dried_salt"
+    },
+    {
+      "item": "quark:charcoal_block"
+    },
+    {
+      "item": "biomesoplenty:brimstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

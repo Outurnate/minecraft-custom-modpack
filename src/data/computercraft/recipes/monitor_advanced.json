@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "APPPA",
+    "PGGGP",
+    "PGGGP",
+    "PGGGP",
+    "APPPA"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "A": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "item": "computercraft:monitor_advanced",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

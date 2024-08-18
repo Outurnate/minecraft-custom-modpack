@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+  	{
+      "item": "supplementaries:timber_frame"
+    },
+    {
+      "item": "toms_storage:ts.inventory_cable"
+    }
+  ],
+  "result": {
+    "item": "toms_storage:ts.inventory_cable_framed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 24.0,
+  "amountMin": 8.0,
+  "biomeWhitelist": "minecraft:is_nether",
+  "icon": {
+    "item": "biomesoplenty:flesh"
+  },
+  "name": "Flesh",
+  "placement": {
+    "salt": 642510,
+    "separation": 8,
+    "spacing": 128
+  },
+  "priority": 0
+}

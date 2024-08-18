@@ -1,0 +1,13 @@
+name = "BVS - Best Vanilla Shader"
+filename = "Best Vanilla Shader.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/chKtnjkM/versions/FDRDxeNK/BVS%20-%20Best%20Vanilla%20Shader%201.7.3.zip"
+hash-format = "sha1"
+hash = "9bbcf1de06dcad97da01fa649d7ab06627d78c7c"
+
+[update]
+[update.modrinth]
+mod-id = "chKtnjkM"
+version = "FDRDxeNK"

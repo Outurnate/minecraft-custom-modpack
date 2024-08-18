@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " w ",
+    "wsw",
+    " w "
+  ],
+  "key": {
+    "w": {
+      "item": "morered:bundled_network_cable"
+    },
+    "s": {
+      "item": "createaddition:spool"
+    }
+  },
+  "result": {
+    "item": "morered:bundled_cable_spool"
+  }
+}
